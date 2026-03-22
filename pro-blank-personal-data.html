@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Обработка персональных данных — PRO-BLANK</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Onest:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{--black:#080807;--white:#f0ece2;--acid:#d4f040;--sand:#b8aa8a;--dark:#111110;--mid:#2a2a26;--border:rgba(240,236,226,0.08);}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{background:var(--black);color:var(--white);font-family:'Onest',sans-serif;}
+nav{padding:20px 48px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--border);}
+.logo{font-family:'Bebas Neue',sans-serif;font-size:24px;letter-spacing:.08em;text-decoration:none;color:var(--white);}
+.logo span{color:var(--acid);}
+.back{font-size:12px;color:var(--sand);text-decoration:none;transition:color .2s;}
+.back:hover{color:var(--white);}
+.container{max-width:820px;margin:0 auto;padding:80px 48px 120px;}
+.doc-label{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--acid);margin-bottom:20px;display:flex;align-items:center;gap:10px;}
+.doc-label::before{content:'';width:24px;height:1px;background:var(--acid);}
+h1{font-family:'Bebas Neue',sans-serif;font-size:clamp(36px,5vw,66px);letter-spacing:.02em;line-height:.95;margin-bottom:16px;}
+.doc-date{font-size:11px;color:var(--mid);letter-spacing:.1em;margin-bottom:60px;padding-bottom:40px;border-bottom:1px solid var(--border);}
+h2{font-size:13px;font-weight:700;color:var(--acid);margin:44px 0 14px;text-transform:uppercase;letter-spacing:.1em;}
+p{font-size:15px;line-height:1.85;color:var(--sand);margin-bottom:18px;}
+ul{font-size:15px;line-height:1.85;color:var(--sand);margin-bottom:18px;list-style:none;padding:0;}
+ul li{padding:5px 0 5px 22px;position:relative;}
+ul li::before{content:'—';position:absolute;left:0;color:var(--acid);}
+.other-docs{margin-top:80px;padding-top:48px;border-top:1px solid var(--border);}
+.other-docs-title{font-size:11px;letter-spacing:.15em;text-transform:uppercase;color:var(--sand);margin-bottom:24px;}
+.doc-links{display:flex;gap:2px;flex-wrap:wrap;}
+.doc-link{font-size:12px;color:var(--sand);text-decoration:none;border:1px solid var(--border);padding:10px 18px;transition:border-color .2s,color .2s;}
+.doc-link:hover{border-color:var(--acid);color:var(--acid);}
+footer{border-top:1px solid var(--border);padding:32px 48px;display:flex;justify-content:space-between;font-size:11px;color:var(--mid);}
+@media(max-width:768px){nav,footer{padding:16px 24px;}.container{padding:60px 24px 80px;}}
+</style>
+</head>
+<body>
+<nav>
+  <a class="logo" href="index.html">PRO-<span>BLANK</span></a>
+  <a class="back" href="index.html">← Вернуться на сайт</a>
+</nav>
+<div class="container">
+  <div class="doc-label"><span>Документ</span></div>
+  <h1>Политика обработки персональных данных</h1>
+  <div class="doc-date">Редакция от 01.01.2025 · Москва · В соответствии с ФЗ № 152</div>
+
+  <h2>1. Оператор персональных данных</h2>
+  <p>ООО «ПРО-БЛАНК», ИНН 7701234567, ОГРН 1157746123456, адрес: 115088, г. Москва, ул. Угрешская, 31к3. Контактное лицо по вопросам обработки ПДн: privacy@pro-blank.ru</p>
+
+  <h2>2. Правовые основания</h2>
+  <ul>
+    <li>Федеральный закон от 27.07.2006 № 152-ФЗ «О персональных данных»</li>
+    <li>Постановление Правительства РФ от 01.11.2012 № 1119</li>
+    <li>Приказ ФСТЭК России от 18.02.2013 № 21</li>
+    <li>Согласие субъекта персональных данных</li>
+    <li>Договор, стороной которого является субъект</li>
+  </ul>
+
+  <h2>3. Категории субъектов и данных</h2>
+  <p><strong style="color:var(--white)">Клиенты и потенциальные клиенты:</strong></p>
+  <ul>
+    <li>ФИО, телефон, email, название компании</li>
+    <li>Адрес доставки</li>
+    <li>История заказов и переписки</li>
+  </ul>
+  <p><strong style="color:var(--white)">Пользователи сайта:</strong></p>
+  <ul>
+    <li>IP-адрес, cookies, данные браузера</li>
+    <li>Поведенческие данные (страницы, время на сайте)</li>
+  </ul>
+
+  <h2>4. Получение согласия</h2>
+  <p>Согласие оформляется путём подтверждения чекбокса «Согласен с обработкой персональных данных» при заполнении форм на сайте. Факт согласия логируется с указанием даты, времени и IP-адреса.</p>
+
+  <h2>5. Цели обработки</h2>
+  <ul>
+    <li>Обработка обращений и запросов (осн.: согласие, договор)</li>
+    <li>Исполнение договорных обязательств (осн.: договор)</li>
+    <li>Маркетинговые коммуникации (осн.: согласие)</li>
+    <li>Статистика и аналитика сайта (осн.: законный интерес)</li>
+    <li>Бухгалтерский и налоговый учёт (осн.: закон)</li>
+  </ul>
+
+  <h2>6. Срок хранения</h2>
+  <ul>
+    <li>Данные клиентов — 5 лет с окончания последнего заказа</li>
+    <li>Данные из форм (без заказа) — 1 год</li>
+    <li>Бухгалтерские документы — 5 лет (ФЗ о бухучёте)</li>
+    <li>Данные из cookies — в соответствии с настройками браузера</li>
+  </ul>
+
+  <h2>7. Трансграничная передача</h2>
+  <p>Трансграничная передача ПДн на территорию иностранных государств, не обеспечивающих адекватную защиту, не осуществляется.</p>
+  <p>Использование сервисов аналитики (Яндекс.Метрика, Google Analytics) осуществляется в соответствии с их политиками конфиденциальности и применимым законодательством.</p>
+
+  <h2>8. Меры защиты</h2>
+  <ul>
+    <li>SSL-шифрование передачи данных</li>
+    <li>Ограничение доступа к ПДн по принципу минимальных привилегий</li>
+    <li>Регулярный аудит безопасности</li>
+    <li>Резервное копирование и антивирусная защита</li>
+    <li>Инструктаж сотрудников по работе с ПДн</li>
+  </ul>
+
+  <h2>9. Права субъекта</h2>
+  <p>Субъект вправе: получить информацию об обработке ПДн · потребовать уточнения, блокирования или уничтожения · отозвать согласие · обжаловать действия оператора в Роскомнадзоре.</p>
+  <p>Запросы направляйте по адресу: <strong style="color:var(--white)">privacy@pro-blank.ru</strong>. Ответ — в течение 30 дней.</p>
+
+  <h2>10. Уполномоченный орган</h2>
+  <p>Федеральная служба по надзору в сфере связи, информационных технологий и массовых коммуникаций (Роскомнадзор) — rkn.gov.ru</p>
+
+  <div class="other-docs">
+    <div class="other-docs-title">Другие документы</div>
+    <div class="doc-links">
+      <a class="doc-link" href="privacy.html">Политика конфиденциальности</a>
+      <a class="doc-link" href="offer.html">Публичная оферта</a>
+      <a class="doc-link" href="terms.html">Пользовательское соглашение</a>
+    </div>
+  </div>
+</div>
+<footer>
+  <span>© 2025 PRO-BLANK · ООО «ПРО-БЛАНК»</span>
+  <span>ИНН 7701234567</span>
+</footer>
+</body>
+</html>
